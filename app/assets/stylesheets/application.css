@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   background: black
+ }
+
+ .banner {
+   background: white
+ }
+.form-control {
+  background-color: blue;
+}
+ .button {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
